@@ -18,10 +18,35 @@ izvodiseod datetime
 
 
 
+use master;
+go
+drop database if exists edunovawp7;
+go
+create database edunovawp7;
+go
+use edunovawp7;
+go
 create table polaznici(
 sifra int,
 ime varchar(50),
 prezime varchar(50),
 oib char(11),
 email varchar(100)
+);
+
+
+
+use master;
+go
+drop database if exists edunovawp7;
+go
+create database edunovawp7;
+go
+use edunovawp7;
+go
+create table grupe(
+sifra int,
+naziv varchar(20),
+smjer int,
+predavac varchar(50)
 );
