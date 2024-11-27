@@ -1,6 +1,6 @@
-﻿create database vjezbica
+﻿create database vjezbica;
 
-use vjezbica
+use vjezbica;
 
 create table moje (
 naziv varchar(20)
