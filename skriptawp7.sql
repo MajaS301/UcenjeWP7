@@ -38,3 +38,4 @@ create table clanovi(
 grupa int not null references grupe(sifra),
 polaznik int not null references polaznici(sifra)
 );
+
