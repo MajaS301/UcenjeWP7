@@ -27,3 +27,24 @@ stadion varchar (50) not null,
 domaci_klub varchar(50) not null references klub(naziv),
 gostujuci_klub varchar (50) not null references klub(naziv)
 );
+
+
+create table igrac(
+sifra int not null primary key identity (2,2),
+ime varchar (50) not null,
+prezime varchar(50) not null,
+datum_rodenja date not null,
+pozicija varchar(50),
+broj_dresa varchar(10),
+klub varchar (50) not null references klub(naziv)
+);
+
+
+create table trener(
+sifra int not null primary key identity (2,2),
+ime varchar (50) not null,
+prezime varchar(50) not null,
+klub varchar(50) not null references klub(naziv),
+nacionalnost varchar(50),
+iskustvo varchar(10)
+);
