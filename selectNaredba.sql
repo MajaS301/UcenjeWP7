@@ -35,3 +35,31 @@ where sifra=4;
 
 select * from smjerovi
 where izvodiseod between '2021-01-01' and '2024-06-30'
+
+
+use knjiznica
+
+select prezime, ime from autor order by prezime asc, ime desc;
+select prezime, ime from autor order by 1 asc, 2 desc;
+
+select top 10 percent * from autor;
+
+select top 10 * from mjesto;
+
+select top 10 * from autor 
+
+
+INSERT into autor	(sifra, ime, prezime, datumrodenja)  
+values	(5,'Maja','Šteler', '2004-01-30');
+
+select top 10 * from autor
+select count(*) from katalog; -- koliko ima zapisa
+
+select * from katalog
+where naslov like '%ljubav%' and
+sifra in (2541,2660,2664,2938);
+
+select count(*) from izdavac;
+
+select * from izdavac
+where naziv like '%d.%o%o%' or naziv like '%d%o%o.%';
