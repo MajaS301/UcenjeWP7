@@ -63,3 +63,7 @@ select count(*) from izdavac;
 
 select * from izdavac
 where naziv like '%d.%o%o%' or naziv like '%d%o%o.%';
+
+
+use svastara;
+select count(*) from Artikli;
