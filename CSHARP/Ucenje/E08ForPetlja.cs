@@ -82,7 +82,7 @@ namespace Ucenje
             Console.WriteLine("************************");
 
 
-            int[] niz = { 2, 3, 4, 5, 3, 2, 2 }; // dužina je 7
+            int[] niz = { 2, 3, 4, 5, 3, 2, 2 }; 
 
             // Ispišite broj 5
             Console.WriteLine(niz[3]);
