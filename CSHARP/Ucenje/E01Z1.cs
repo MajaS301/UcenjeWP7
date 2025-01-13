@@ -13,13 +13,11 @@ namespace Ucenje
         {
             //Console.WriteLine("E01Z1");
 
-            // Program od korisnika unosi zasebno ime i prezime
-            // Program ispisuje prezime i ime
 
-            Console.Write("Unesi svoje ime: ");
+            Console.Write("Maja");
             string ime = Console.ReadLine();
 
-            Console.Write("Unesi svoje prezime: ");
+            Console.Write("Steler ");
             string prezime = Console.ReadLine();
 
             Console.WriteLine("{0} {1}", prezime, ime);
