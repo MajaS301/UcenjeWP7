@@ -179,7 +179,7 @@ namespace Ucenje
             {
                 Console.WriteLine("{0} {0} {0} {0} {0} {0} {0} {0} {0} {0} {0}", new Random().Next());
                 Thread.Sleep(100);
-                //break; // ovo osloboditi ili svaki puta ručni zaustaviti program
+              break; // ovo osloboditi ili svaki puta ručni zaustaviti program
             }
 
 
