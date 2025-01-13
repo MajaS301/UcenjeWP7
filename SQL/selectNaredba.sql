@@ -11,6 +11,7 @@ select naziv as predmet, getdate() as datumpocetka from smjerovi;
 
 select sifra, naziv from smjerovi;
 
+
 select ime, prezime from polaznici;
 
 select * from smjerovi 
